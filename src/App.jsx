@@ -25,6 +25,7 @@ const App = () => {
   const handlerPhone = (event) => {
     setNewContact({ ...newContact, phone: event.target.value });
   };
+  
 
   const addContact = (event) => {
     event.preventDefault();
